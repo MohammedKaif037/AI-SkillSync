@@ -7,6 +7,7 @@ import ProfileSkeleton from "@/components/profile-skeleton"
 import ResumeAnalysis from "@/components/resume-analysis"
 import CareerPathSuggestions from "@/components/career-path-suggestions"
 
+//create profile page for initial rendering with mock data
 export default function ProfilePage() {
   return (
     <div className="min-h-screen flex flex-col">
