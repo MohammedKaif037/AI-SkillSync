@@ -6,6 +6,8 @@ import JobDetailsSkeleton from "@/components/job-details-skeleton"
 import RelatedJobs from "@/components/related-jobs"
 import AIJobInsights from "@/components/ai-job-insights"
 
+//create job id page for initial rendering with mock data
+
 export default function JobDetailsPage({ params }: { params: { id: string } }) {
   return (
     <div className="min-h-screen flex flex-col">
