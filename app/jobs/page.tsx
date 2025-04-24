@@ -6,6 +6,8 @@ import JobListings from "@/components/job-listings"
 import JobListingsSkeleton from "@/components/job-listings-skeleton"
 import Pagination from "@/components/pagination"
 
+//create job page for initial rendering with mock data
+
 export default function JobsPage({
   searchParams,
 }: {
